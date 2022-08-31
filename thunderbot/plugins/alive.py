@@ -87,7 +87,7 @@ async def ifiamalive(alive):
         await borg.send_file(alive.chat_id, ALV_PIC, caption=thundrgang, link_preview=False)
         await alive.delete()
         return
-    req = requests.get("https://telegra.ph/file/9f55c22fe80a283d6c0fb.png")
+    req = requests.get("https://raw.githubusercontent.com/Thundergang/thunderuserbot/master/Extras/logo.png")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)

@@ -102,7 +102,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Thunderuserbot")
 
 AUTOPIC_FONT_COLOUR = os.environ.get("AUTOPIC_FONT_COLOUR", None)
 
@@ -167,7 +167,7 @@ THUNDER_OWNER = set(
 SUPPORT_USERS = set(
     int(x) for x in os.environ.get(
         "SUPPORT_USERS", "").split())
-ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
+ALIVE_PIC = os.environ.get("ALIVE_PIC", "https://raw.githubusercontent.com/Thundergang/thunderuserbot/master/Extras/logo.png")
 CUSTOM_ALIVE = os.environ.get("CUSTOM_ALIVE", None)
 CUSTOM_ALIVE_EMOJI = os.environ.get("CUSTOM_ALIVE_EMOJI", None)
 CUSTOM_AFK = os.environ.get("CUSTOM_AFK", None)

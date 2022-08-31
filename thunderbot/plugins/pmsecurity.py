@@ -16,7 +16,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 THUNDRPIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
-    else "https://telegra.ph/file/d8debedf797a5c00a7844.png"
+    else "https://raw.githubusercontent.com/Thundergang/thunderuserbot/master/Extras/logo.png"
 )
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
