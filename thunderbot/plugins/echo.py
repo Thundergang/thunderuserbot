@@ -2,7 +2,7 @@
 #    This program is licensed under GNU Affero General Public License.(https://github.com/Thundergang/thunderuserbot/blob/master/LICENSE)
 #    You cannot edit and publish it before asking owner or support team(@thunderuserbotchat on telegram), otherwise we can take any actions against you.
 
-from thunderbot import CMD_HELP, TG_BOT_TOKEN_BF_HER
+from thunderbot import CMD_HELP, TG_BOT_USER_NAME_BF_HER
 
 
 @thunderbot.on(admin_cmd(pattern=r"echo (.*)"))
